@@ -19,12 +19,7 @@ return {
       'nvim-lua/plenary.nvim',
     },
     opts = {
-      workspaces = {
-        {
-          name = 'studyalgo',
-          path = '~/Projects/studyalgo',
-        },
-      },
+      workspaces = require 'kickstart/plugins/obsidian_workspaces',
       completion = {
         -- Set to false to disable completion.
         nvim_cmp = true,

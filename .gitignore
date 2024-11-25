@@ -4,3 +4,5 @@ test.sh
 nvim
 
 spell/
+
+lua/kickstart/plugins/obsidian_workspaces.lua
